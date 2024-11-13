@@ -28,7 +28,7 @@ OVERWRITE_RINEX = True  # overwrite existing rinex filex
 OVERWRITE_SOL = True    # overwrite existing solution files
 
 # specify location of input folder and files
-datadir = '../train/train'   # relative to python script
+datadir = 'train/train'   # relative to python script
 # base and nav file locations are relative to obs files
 basefiles = '../*0.2*o' # rinex2, use this for rtklib only
 #basefiles = '../base.obs' # rinex3, use this for python only
